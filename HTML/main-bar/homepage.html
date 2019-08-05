@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Home-page</title>
+    <link rel="stylesheet" href="../../CSS/customize/hompage.css">
+    <link rel="stylesheet" href="../../CSS/bootstrap/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <script src="https://kit.fontawesome.com/b5b2a77a16.js"></script>
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="container-fluid">
+            <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+                <a class="navbar-brand" href="homepage.html">
+                    <div class="logo">
+                        <img class="logo1" src="../../img eproject/logo/logoTasha222.jpg" alt="">
+                    </div>
+                </a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarCollapse">
+                    <div class="header-inner">
+                        <ul class="navbar-nav mr-auto">
+                            <li class="nav-item">
+                                <a class="nav-link" href="homepage.html">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" style="width: 150px" href="AboutTasha.html">About Tasha</a>
+                            </li>
+                            <!-- Menu dropdown -->
+                            <li class="nav-item dropdown" >
+                                <a class="nav-link dropdown-toggle" data-toggle="dropdown" id="navbarDropdown" aria-haspopup="true" aria-expanded="false" href="#">Product</a>
+                                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                    <li class="dropdown-item dropright dropdown-submenu">
+                                        <a class="dropdown-item dropdown-toggle" data-toggle="dropdown"href="#">Brand</a>
+                                        <ul class="dropdown-menu">
+                                            <li><a class="dropdown-item" href="../product-bar/LG-productPage.html">LG</a></li>
+                                            <li><a class="dropdown-item" href="../product-bar/Sunhouse-productPage.html">Sunhouse</a></li>
+                                            <li><a class="dropdown-item" href="../product-bar/Zojirushi-productPage.html">Zojirushi</a></li>
+                                            <li><a class="dropdown-item" href="../product-bar/Philips-productPage.html">Philips</a></li>
+                                            <li><a class="dropdown-item" href="../product-bar/Fissler-productPage.html">Fissler</a></li>
+                                            <li><a class="dropdown-item" href="../product-bar/HapplyCook-productPage.html">Happy Cook</a></li>
+                                            <li><a class="dropdown-item" href="../product-bar/Lock&lock-productPage.html">Lock & lock</a></li>
+                                            <li><a class="dropdown-item" href="../product-bar/Bosch-productPage.html">Bosch</a></li>
+                                        </ul>
+                                    </li>
+                                    <li class="dropdown-item dropright dropdown-submenu">
+                                        <a class="dropdown-item dropdown-toggle" data-toggle="dropdown" href="#">Kitchen appliances</a>
+                                        <ul class="dropdown-menu">
+                                            <li><a class="dropdown-item" href="Cookware-page.html">Cookware</a></li>
+                                            <li><a class="dropdown-item" href="Refrigeration-page.html">Refrigeration</a></li>
+                                            <li><a class="dropdown-item" href="Appliances-page.html">Appliances</a></li>
+                                            <li><a class="dropdown-item" href="FoodStorage-page.html">Food Storage</a></li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" href="#">Support</a>
+                                <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                    <li><a class="dropdown-item" href="Feedback.html">Feedback Page</a></li>
+                                    <li><a class="dropdown-item" href="Manuals-page.html">Manuals</a></li>
+                                    <li><a class="dropdown-item" href="Q&A.html">Questions and Answers</a></li>
+                                </ul>                            
+                            </li>
+                            <li class="nav-item dropdown" >
+                                <a class="nav-link dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" href="#">Contact us</a>
+                                <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                    <li><a class="dropdown-item" href="Headoffice.html">Head office</a></li>
+                                    <li><a class="dropdown-item" href="Location-Store.html">Store location</a></li>
+                                </ul>
+                            </li>
+                            <!-- End menu dropdown -->
+                        </ul>
+                    </div>
+                </div>
+                <div class="header-search">
+                    <form action="">
+                        <input class="search" type="search" name="txtSearch" placeholder="Search everything you want">
+                        <button class="btn btn-outline-light " type="submit"><span class="fa fa-search"></span></button> 
+                    </form>
+                </div>
+            </nav>
+        </div>
+    </header>
+    <!-- JS menu-dropdown + Scroll to Top Button -->
+    <script src="../../JS/JScustom/menu-dropdown.js"></script>
+    
+    <!-- Slide -->
+    <div class="slide">
+        <div id="slide" class="carousel slide" data-ride="carousel">
+            <ul class="carousel-indicators">
+                <li data-target="#slide" data-slide-to="0" class="active"></li>
+                <li data-target="#slide" data-slide-to="1"></li>
+                <li data-target="#slide" data-slide-to="2"></li>
+                <li data-target="#slide" data-slide-to="3"></li>
+            </ul>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="../../img eproject/image slide homepage/slide1.jpg">
+                </div>
+                <div class="carousel-item">
+                    <img src="../../img eproject/image slide homepage/slide2.jpg">
+                </div>
+                <div class="carousel-item">
+                    <img src="../../img eproject/image slide homepage/slide3.jpg">
+                </div>
+                <div class="carousel-item">                       
+                    <img src="../../img eproject/image slide homepage/slide4.jpg">
+                </div>
+            </div>
+            <a class="carousel-control-prev" href="#slide" data-slide="prev">
+                <span class="carousel-control-prev-icon"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#slide" data-slide="next">
+                <span class="carousel-control-next-icon"></span>
+                <span class="sr-only">Next</span>
+            </a>
+        </div>
+    </div>
+    <!-- Thanh ngang -->
+    <div class="partner">
+        <img src="../../img eproject/image slide homepage/touachbar.png" alt="">
+    </div>
+    <!-- Icon -->
+    <div class="bg-icon">
+        <div class="container-fluid">
+            <div class="row text-center mt-5">
+                <div class="col-md-3 col-sm-6 col-6">
+                    <a href="Cookware-page.html"><img class="rounded-circle" src="../../img eproject/icon/cookware.png" width="75%" alt=""></a>
+                    <h4 class="title">Cookware</h4>
+                </div>
+                <div class="col-md-3 col-sm-6 col-6">
+                    <a href="Refrigeration-page.html"><img class="rounded-circle" src="../../img eproject/icon/Refrigeration.png" width="75%" alt=""></a>
+                    <h4 class="title">Refrigeration</h4>
+                </div>
+                <div class="col-md-3 col-sm-6 col-6">
+                    <a href="Appliances-page.html"><img class="rounded-circle" src="../../img eproject/icon/appliances.png" width="75%" alt=""></a>
+                    <h4 class="title">Appliances</h4>
+                </div>
+                <div class="col-md-3 col-sm-6 col-6">
+                    <a href="FoodStorage-page.html"><img class="rounded-circle" src="../../img eproject/icon/food-storage.jpg" width="75%" alt=""></a>
+                    <h4 class="title">Food Storage</h4>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Upcoming product -->
+    <div class="upcoming">
+        <div class="container-fluid text-center" style="background-color: rgb(234, 239, 245);">
+            <hr>
+            <div class="row mt-4">
+                <h1 class="title">Upcoming Product</h1>
+            </div>
+            <div class="row mt-4">
+                <div class="col-md-6 col-sm-12">
+                    <a href="../detail-bar/CookwareSets-viseo4pieceSet.html">
+                        <img src="../../img eproject/Product upcoming/FISSLER VISEO series pot set 4 pieces/Fissler_viseo_4_a_2000x2000.jpg" width="80%" alt="">
+                        <h4>FISSLER viseo 4-piece set</h4>
+                    </a>
+                </div>
+                <div class="col-md-6 col-sm-12">
+                    <a href="../detail-bar/CookwareSets-set5pieces.html">
+                        <img src="../../img eproject/Product upcoming/FISSLER FAMILY LINE series pot set 5 pieces with metal lids/Fissler_Family_5_tlg_2000x2000.jpg"  width="80%" alt="">
+                        <h4>FISSLER original-profi collection 5-piece set</h4>
+                    </a>
+                </div>
+            </div>
+            <div class="row mt-4">
+                <div class="col-md-6 col-sm-12">
+                    <a href="../detail-bar/Freezers-LG-GM6140PZQV.html">
+                        <img src="../../img eproject/Product upcoming/LG GM6140PZQV 6040 Fridge Freezer/l_10132197_004.jpg" width="80%" alt="">
+                        <h4>LG GM6140PZQV 60/40 Fridge Freezer</h4>
+                    </a>
+                </div>
+                <div class="col-md-6 col-sm-12">
+                    <a href="../detail-bar/Freezers-Benchmark® Built-in Bottom Freezer Refrigerator.html">
+                        <img src="../../img eproject/Product upcoming/Benchmark® Built-in Bottom Freezer Refrigerator/MCSA02713149_i8771_2057205_B30IB900SP_PGA1_def.jpg" width="80%" height="90%" alt="">
+                        <h4>BOSCH Benchmark® Built-in Bottom Freezer</h4>
+                    </a>
+                </div>
+            </div>
+            <div class="row mt-4">
+                <div class="col-md-6 col-sm-12">
+                    <a href="../detail-bar/Indoor Grill HD6370_91.html">
+                        <img src="../../img eproject/Product upcoming/Indoor Grill (HD6370_91)/HD6370_91-MI1-global-001.jfif" width="80%" alt="">
+                        <h4>PHILIPS Indoor Grill</h4>
+                    </a>
+                </div>
+                <div class="col-md-6 col-sm-12">
+                    <a href="../detail-bar/Table gill HD6320_20.html">
+                        <img src="../../img eproject/Product upcoming/Table gill (HD6320_20)/HD6320_20-D1P-global-001.jfif" width="80%" alt="">
+                        <h4>PHILIPS Table gill</h4>
+                    </a>
+                </div>
+            </div>
+            <div class="row mt-4 pb-4">
+                <div class="col-md-6 col-sm-12">
+                    <a href="../detail-bar/LunchBoxes-Lock&Lock Camen Set.html">
+                        <img src="../../img eproject/Product upcoming/Lock&Lock Camen Set/metal.jpg" width="80%" alt="">
+                        <h4>Lock&Lock Camen Set</h4>
+                    </a>
+                </div>
+                <div class="col-md-6 col-sm-12">
+                    <a href="../detail-bar/LunchBoxes-Lock&Lock 3P Bag .html">
+                        <img src="../../img eproject/Product Brand/Lock&lock product/Lunch Box/3P Bag1.jpg" width="80%" height="90.5%" alt="">
+                        <h4>Lock&Lock 3P Bag</h4>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Our Partners -->
+    <div class="container-fluid mt-4">
+        <h1 class="out-partners">Our Partners</h1>
+        <!-- Slide-logo-brand -->
+        <div class="container">
+            <div class="slide-logo">
+                <div id="slide2" class="carousel slide" data-ride="carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <div class="row text-center">
+                                <div class="col-md-3 col-sm-6 col-6">
+                                    <img src="../../img eproject/logo/logo LG.png">
+                                </div>
+                                <div class="col-md-3 col-sm-6 col-6">
+                                    <img src="../../img eproject/logo/logo sunhouse.png" alt="">
+                                </div>
+                                <div class="col-md-3 col-sm-6 col-6">
+                                    <img src="../../img eproject/logo/logo fissler.png">
+                                </div>
+                                <div class="col-md-3 col-sm-6 col-6">
+                                    <img src="../../img eproject/logo/logo happycook.png" alt="">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="row text-center">
+                                <div class="col-md-3 col-sm-6 col-6">
+                                    <img src="../../img eproject/logo/logo Bosch.png" alt="">
+                                </div>
+                                <div class="col-md-3 col-sm-6 col-6">
+                                    <img src="../../img eproject/logo/logo zojirusi.png" alt="">
+                                </div>
+                                <div class="col-md-3 col-sm-6 col-6">
+                                    <img src="../../img eproject/logo/logo lock&lock.jpg" alt="">
+                                </div>
+                                <div class="col-md-3 col-sm-6 col-6">
+                                    <img src="../../img eproject/logo/logo philips.jpg" alt="">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <a class="carousel-control-prev" href="#slide2" data-slide="prev">
+                        <span class="carousel-control-prev-icon"></span>
+                        <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="carousel-control-next" href="#slide2" data-slide="next">
+                        <span class="carousel-control-next-icon"></span>
+                        <span class="sr-only">Next</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>    
+    <!-- footer -->
+    <div class="footer">
+        <div class="container p-0">
+            <div class="row mt-5 text-center text-md-left">
+                <div class="col-md-3 col-sm-6 col-6">
+                    <h5 class="font-weight-bold text-uppercase mt-3 mb-3">Product</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="Cookware-page.html">Cookware</a></li>
+                        <li><a href="Refrigeration-page.html">Refrigeration</a></li>
+                        <li><a href="Appliances-page.html">Appliances</a></li>
+                        <li><a href="FoodStorage-page.html">Food Storage</a></li>
+                    </ul> 
+                </div>
+                <div class="col-md-3 col-sm-6 col-6">
+                    <h5 class="font-weight-bold text-uppercase mt-3 mb-3">About us</h5>
+                    <ul class="list-unstyled">
+                        <li>Our company</li>
+                        <li>Mission & Vision</li>
+                        <li>Our Team</li>
+                    </ul> 
+                </div>
+                <div class="col-md-3 col-sm-6 col-6">
+                    <h5 class="font-weight-bold text-uppercase mt-3 mb-3">Customer Support</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="Feedback.html">Feedback Page</a></li>
+                        <li><a href="Manuals-page.html">Manuals</a></li>
+                        <li><a href="Q&A.html">Questions and answers</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-3 col-sm-6 col-6">
+                    <h5 class="font-weight-bold text-uppercase mt-3 mb-3">Address</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="Headoffice.html">Head office: 200 3/2 street, District 10, Ho Chi Minh city, Vietnam</a></li>
+                        <li>Tel: 1900 696 969</li>
+                        <li><a href="Location-Store.html">Store Locations</a></li>
+                    </ul> 
+                </div>
+            </div>
+            <div class="row mt-1">
+                <div class="col-md-9 col-sm-7">
+                    <h5 class="font-weight-bold text-uppercase mt-3 mb-2">Delivery services</h5>
+                    <img src="../../img eproject/image footer/del.png" alt="" width="85%" height="70%">
+                </div>
+                <div class="col-md-3 col-sm-5">
+                    <h5 class="font-weight-bold text-uppercase mt-3 mb-4" >Payment method</h5>
+                    <img src="../../img eproject/image footer/pay.png" alt="" width="80%" height="60%">
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid mt-3">
+            <div class="row text-center pt-1 pb-1" style="background-color: rgb(58, 57, 57)">
+                <hr>
+                <div class="col-12" style="color: white; font-size: 15px">Copyright &copy; 2019 <a href="#" class="copyright">Tasha.com</a>. All rights reserved.</div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

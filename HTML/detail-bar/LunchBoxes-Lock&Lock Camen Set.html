@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>LunchBoxes-Lock&Lock Camen Set</title>
+    <link rel="stylesheet" href="../../CSS/customize/details-page.css">
+    <link rel="stylesheet" href="../../CSS/bootstrap/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <script src="https://kit.fontawesome.com/b5b2a77a16.js"></script>
+
+    <!-- details product showmore-showless -->
+    <script src="../../JS/JScustom/text-show.js"></script>
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="container-fluid">
+            <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+                <a class="navbar-brand" href="../main-bar/homepage.html">
+                    <div class="logo">
+                        <img class="logo1" src="../../img eproject/logo/logoTasha222.jpg" alt="">
+                    </div>
+                </a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarCollapse">
+                    <div class="header-inner">
+                        <ul class="navbar-nav mr-auto">
+                            <li class="nav-item">
+                                <a class="nav-link" href="../main-bar/homepage.html">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" style="width: 150px" href="../main-bar/AboutTasha.html">About Tasha</a>
+                            </li>
+                            <!-- Menu dropdown -->
+                            <li class="nav-item dropdown" >
+                                <a class="nav-link dropdown-toggle" data-toggle="dropdown" id="navbarDropdown" aria-haspopup="true" aria-expanded="false" href="#">Product</a>
+                                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                    <li class="dropdown-item dropright dropdown-submenu">
+                                        <a class="dropdown-item dropdown-toggle" data-toggle="dropdown"href="#">Brand</a>
+                                        <ul class="dropdown-menu">
+                                            <li><a class="dropdown-item" href="../product-bar/LG-productPage.html">LG</a></li>
+                                            <li><a class="dropdown-item" href="../product-bar/Sunhouse-productPage.html">Sunhouse</a></li>
+                                            <li><a class="dropdown-item" href="../product-bar/Zojirushi-productPage.html">Zojirushi</a></li>
+                                            <li><a class="dropdown-item" href="../product-bar/Philips-productPage.html">Philips</a></li>
+                                            <li><a class="dropdown-item" href="../product-bar/Fissler-productPage.html">Fissler</a></li>
+                                            <li><a class="dropdown-item" href="../product-bar/HapplyCook-productPage.html">Happy Cook</a></li>
+                                            <li><a class="dropdown-item" href="../product-bar/Lock&lock-productPage.html">Lock & lock</a></li>
+                                            <li><a class="dropdown-item" href="../product-bar/Bosch-productPage.html">Bosch</a></li>
+                                        </ul>
+                                    </li>
+                                    <li class="dropdown-item dropright dropdown-submenu">
+                                        <a class="dropdown-item dropdown-toggle" data-toggle="dropdown" href="#">Kitchen appliances</a>
+                                        <ul class="dropdown-menu">
+                                            <li><a class="dropdown-item" href="../main-bar/Cookware-page.html">Cookware</a></li>
+                                            <li><a class="dropdown-item" href="../main-bar/Refrigeration-page.html">Refrigeration</a></li>
+                                            <li><a class="dropdown-item" href="../main-bar/Appliances-page.html">Appliances</a></li>
+                                            <li><a class="dropdown-item" href="../main-bar/FoodStorage-page.html">Food Storage</a></li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" href="#">Support</a>
+                                <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                    <li><a class="dropdown-item" href="../main-bar/Feedback.html">Feedback Page</a></li>
+                                    <li><a class="dropdown-item" href="../main-bar/Manuals-page.html">Manuals</a></li>
+                                    <li><a class="dropdown-item" href="../main-bar/Q&A.html">Questions and Answers</a></li>
+                                </ul>                            
+                            </li>
+                            <li class="nav-item dropdown" >
+                                <a class="nav-link dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" href="#">Contact us</a>
+                                <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                    <li><a class="dropdown-item" href="../main-bar/Headoffice.html">Head office</a></li>
+                                    <li><a class="dropdown-item" href="../main-bar/Location-Store.html">Store location</a></li>
+                                </ul>
+                            </li>
+                            <!-- End menu dropdown -->
+                        </ul>
+                    </div>
+                </div>
+                <div class="header-search">
+                    <form action="">
+                        <input class="search" type="search" name="txtSearch" placeholder="Search everything you want">
+                        <button class="btn btn-outline-light " type="submit"><span class="fa fa-search"></span></button> 
+                    </form>
+                </div>
+            </nav>
+        </div>
+    </header>
+    <!-- JS menu-dropdown -->
+    <script src="../../JS/JScustom/menu-dropdown.js"></script>
+
+    <!-- Content -->
+    <div class="content">
+         <!-- The Modal Product Updating -->
+        <div class="modal fade" id="myModal">
+            <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title">Product is updating...</h5>
+                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    </div>
+                    <div class="modal-body">
+                        <img src="../../img eproject/loadingAnimation.gif" width="100%" alt="">
+                    </div>
+                    <div class="modal-footer">
+                        <button class="modal-close" type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Slide, price, highlight of Product -->
+        <div class="detail">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-md-5 col-sm-12">
+                        <div class="slide pl-5 pr-1">
+                            <div id="slide" class="carousel slide" data-ride="carousel">
+                                <div class="carousel-inner">
+                                    <div class="carousel-item active">
+                                        <img class="zoom" src="../../img eproject/Product Brand/Lock&lock product/Lunch Box/metal.jpg">                               
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-7 col-sm-12 pr-5 pl-4">
+                        <h2 class="name-product">Lock&Lock Camen Set</h2>
+                        <div class="info-view">
+                            <div class="comment"><i class="far fa-comment"></i> Comment: 0</div>
+                            <div class="view"><i class="fa fa-eye"> View: 432</i></div>
+                            <div class="star">
+                                <form action="">
+                                    <input class="fas fa-star" id="star-5" type="radio" name="star"/>
+                                    <label class="fas fa-star" for="star-5"></label>
+                                    <input class="fas fa-star" id="star-4" type="radio" name="star"/>
+                                    <label class="fas fa-star" for="star-4"></label>
+                                    <input class="fas fa-star" id="star-3" type="radio" name="star"/>
+                                    <label class="fas fa-star" for="star-3"></label>
+                                    <input class="fas fa-star" id="star-2" type="radio" name="star"/>
+                                    <label class="fas fa-star" for="star-2"></label>
+                                    <input class="fas fa-star" id="star-1" type="radio" name="star"/>
+                                    <label class="fas fa-star" for="star-1"></label>
+                                </form>
+                            </div>
+                            <div class="review">(Your evaluate)</div>
+                        </div>
+                        <div class="pt-4 font-weight-bold text-uppercase" >HighLights</div>
+                        <div class="text-highlight">
+                            <ul class="highlight">
+                                <li>Hygienic STS304 on both body and lid, Elegant design</li>
+                            </ul>
+                        </div>
+                        <div class="price">$38.99</div>
+                        <div class="add"><button type="button" data-toggle="modal" data-target="#myModal">Product Upcoming</button></div>
+                        <span class="heart">
+                            <form action="">
+                                <input class="fas fa-heart" type="radio" id="heart" name="heart">
+                                <label class="fas fa-heart" for="heart"></label>
+                            </form>
+                        </span>
+                    </div>
+                </div>
+            </div>
+            <!-- Product detail -->
+        </div>
+        <div class="container-fluid pt-3">
+            <div class="row">
+                <div class="col-md-6 col-sm-12">
+                    <h2 class="mt-4 pb-3 pt-3 title-product-detail">Product detail</h2>
+                    <div class="mt-3 pb-2" style="font-size: 16px">Lock&Lock Camen Set</div>
+                    Excellent heat conservation from special copper plating coating and triple air cap<br>
+                    Easy cleaning from wide mouth<br>
+                    Great portability from its own bag with stylish design<br>
+                    Body-Stainless steel 304 / Lid-Stainless steel <br>
+                </div>
+            <!-- Specifications -->
+                <div class="col-md-6 col-sm-12">
+                    <h2 class="mt-4 pb-3 pt-3 text-center specifications">Specifications</h2>
+                    <table class="table table-bordered table-striped mt-4">
+                        <tbody>
+                            <tr>
+                                <td>Brand</td>
+                                <td>Lock&Lock</td>
+                            </tr>
+                            <tr>
+                                <td>Size</td>
+                                <td>Boiled-Rice container(350ml) 94x110mm / Side dish container(280ml) 94x56mm /Bag 200x145mm</td>
+                            </tr>
+                            <tr>
+                                <td>Color</td>
+                                <td>Red </td>
+                            </tr>               
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+        <!-- Products same category -->
+        <div class="container-fluid">
+            <div class="row">
+                <div class="titie-product-same">
+                    <h2 class="mt-4 pb-3 pt-3 product-same">Products same category (1 product)</h2>
+                </div>
+            </div>
+            <div class="row mt-4">
+                <div class="slide-product-same">
+                    <div id="slide2" class="carousel slide" data-ride="carousel">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <div class="row text-center">
+                                    <div class="col-md-3 col-sm-6 pt-2 pb-4">
+                                        <a href="LunchBoxes-Lock&Lock 3P Bag .html">
+                                            <div class="product-image">
+                                                <img src="../../img eproject/Product Brand/Lock&lock product/Lunch Box/3P Bag1.jpg" alt="">
+                                            </div>
+                                            <h5 class="title-product">Lock&Lock 3P Bag</h5>
+                                        </a>
+                                        <div class="price2">$15.99</div>
+                                        <div class="add2"><button type="button" data-toggle="modal" data-target="#myModal">Product Upcoming</button></div>
+                                    </div>                   
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+     <!-- footer -->
+     <div class="footer">
+        <div class="container p-0">
+            <div class="row mt-5 text-center text-md-left">
+                <div class="col-md-3 col-sm-6 col-6">
+                    <h5 class="font-weight-bold text-uppercase mt-3 mb-3">Product</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="../main-bar/Cookware-page.html">Cookware</a></li>
+                        <li><a href="../main-bar/Refrigeration-page.html">Refrigeration</a></li>
+                        <li><a href="../main-bar/Appliances-page.html">Appliances</a></li>
+                        <li><a href="../main-bar/FoodStorage-page.html">Food Storage</a></li>
+                    </ul> 
+                </div>
+                <div class="col-md-3 col-sm-6 col-6">
+                    <h5 class="font-weight-bold text-uppercase mt-3 mb-3">About us</h5>
+                    <ul class="list-unstyled">
+                        <li>Our company</li>
+                        <li>Mission & Vision</li>
+                        <li>Our Team</li>
+                    </ul> 
+                </div>
+                <div class="col-md-3 col-sm-6 col-6">
+                    <h5 class="font-weight-bold text-uppercase mt-3 mb-3">Customer Support</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="../main-bar/Feedback.html">Feedback Page</a></li>
+                        <li><a href="../main-bar/Manuals-page.html">Manuals</a></li>
+                        <li><a href="../main-bar/Q&A.html">Questions and answers</a></li>
+                    </ul> 
+                </div>
+                <div class="col-md-3 col-sm-6 col-6">
+                    <h5 class="font-weight-bold text-uppercase mt-3 mb-3">Address</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="../main-bar/Headoffice.html">Head office: 200 3/2 street, District 10, Ho Chi Minh city, Vietnam</a></li>
+                        <li>Tel: 1900 696 969</li>
+                        <li><a href="../main-bar/Location-Store.html">Store Locations</a></li>
+                    </ul> 
+                </div>
+            </div>
+            <div class="row mt-1">
+                <div class="col-md-9 col-sm-7">
+                    <h5 class="font-weight-bold text-uppercase mt-3 mb-2">Delivery services</h5>
+                    <img src="../../img eproject/image footer/del.png" alt="" width="85%" height="70%">
+                </div>
+                <div class="col-md-3 col-sm-5">
+                    <h5 class="font-weight-bold text-uppercase mt-3 mb-4" >Payment method</h5>
+                    <img src="../../img eproject/image footer/pay.png" alt="" width="80%" height="60%">
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid mt-3">
+            <div class="row text-center pt-1 pb-1" style="background-color: rgb(58, 57, 57)">
+                <hr>
+                <div class="col-12" style="color: white; font-size: 15px">Copyright &copy; 2019 <a href="#" class="copyright">Tasha.com</a>. All rights reserved.</div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

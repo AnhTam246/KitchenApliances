@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Q&A-page</title>
+    <link rel="stylesheet" href="../../CSS/bootstrap/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <script src="https://kit.fontawesome.com/b5b2a77a16.js"></script>
+    <link rel="stylesheet" href="../../CSS/customize/Q&A.css">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="container-fluid">
+            <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+                <a class="navbar-brand" href="homepage.html">
+                    <div class="logo">
+                        <img class="logo1" src="../../img eproject/logo/logoTasha222.jpg" alt="">
+                    </div>
+                </a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarCollapse">
+                    <div class="header-inner">
+                        <ul class="navbar-nav mr-auto">
+                            <li class="nav-item">
+                                <a class="nav-link" href="homepage.html">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" style="width: 150px" href="AboutTasha.html">About Tasha</a>
+                            </li>
+                            <!-- Menu dropdown -->
+                            <li class="nav-item dropdown" >
+                                <a class="nav-link dropdown-toggle" data-toggle="dropdown" id="navbarDropdown" aria-haspopup="true" aria-expanded="false" href="#">Product</a>
+                                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                    <li class="dropdown-item dropright dropdown-submenu">
+                                        <a class="dropdown-item dropdown-toggle" data-toggle="dropdown"href="#">Brand</a>
+                                        <ul class="dropdown-menu">
+                                            <li><a class="dropdown-item" href="../product-bar/LG-productPage.html">LG</a></li>
+                                            <li><a class="dropdown-item" href="../product-bar/Sunhouse-productPage.html">Sunhouse</a></li>
+                                            <li><a class="dropdown-item" href="../product-bar/Zojirushi-productPage.html">Zojirushi</a></li>
+                                            <li><a class="dropdown-item" href="../product-bar/Philips-productPage.html">Philips</a></li>
+                                            <li><a class="dropdown-item" href="../product-bar/Fissler-productPage.html">Fissler</a></li>
+                                            <li><a class="dropdown-item" href="../product-bar/HapplyCook-productPage.html">Happy Cook</a></li>
+                                            <li><a class="dropdown-item" href="../product-bar/Lock&lock-productPage.html">Lock & lock</a></li>
+                                            <li><a class="dropdown-item" href="../product-bar/Bosch-productPage.html">Bosch</a></li>
+                                        </ul>
+                                    </li>
+                                    <li class="dropdown-item dropright dropdown-submenu">
+                                        <a class="dropdown-item dropdown-toggle" data-toggle="dropdown" href="#">Kitchen appliances</a>
+                                        <ul class="dropdown-menu">
+                                            <li><a class="dropdown-item" href="Cookware-page.html">Cookware</a></li>
+                                            <li><a class="dropdown-item" href="Refrigeration-page.html">Refrigeration</a></li>
+                                            <li><a class="dropdown-item" href="Appliances-page.html">Appliances</a></li>
+                                            <li><a class="dropdown-item" href="FoodStorage-page.html">Food Storage</a></li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" href="#">Support</a>
+                                <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                    <li><a class="dropdown-item" href="Feedback.html">Feedback Page</a></li>
+                                    <li><a class="dropdown-item" href="Manuals-page.html">Manuals</a></li>
+                                    <li><a class="dropdown-item" href="Q&A.html">Questions and Answers</a></li>
+                                </ul>                            
+                            </li>
+                            <li class="nav-item dropdown" >
+                                <a class="nav-link dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" href="#">Contact us</a>
+                                <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                    <li><a class="dropdown-item" href="Headoffice.html">Head office</a></li>
+                                    <li><a class="dropdown-item" href="Location-Store.html">Store location</a></li>
+                                </ul>
+                            </li>
+                            <!-- End menu dropdown -->
+                        </ul>
+                    </div>
+                </div>
+                <div class="header-search">
+                    <form action="">
+                        <input class="search" type="search" name="txtSearch" placeholder="Search everything you want">
+                        <button class="btn btn-outline-light " type="submit"><span class="fa fa-search"></span></button> 
+                    </form>
+                </div>
+            </nav>
+        </div>
+    </header>
+    <!-- JS menu-dropdown + Scroll to Top Button -->
+    <script src="../../JS/JScustom/menu-dropdown.js"></script>
+
+    <!-- Content -->
+    <div class="content">
+        <div class="container">
+            <div class="col-md-12 mb-2 text-center pt-3">
+                <h2 class="title">Tasha - Frequently asked questions (FAQs)</h2>
+                <p>Here’s a list of the 10 most frequently asked questions we receive regarding our products. For additional information, please contact our Customer Services to be explained or ask your question by filling in the form at the end of this page</p>
+            </div>
+            <div id="accordion">
+
+                <div class="card">
+                    <div class="card-header">
+                    <a class="card-link" data-toggle="collapse" href="#collapseOne">
+                        "How many types of refrigerators are there in the market?"
+                    </a>
+                    </div>
+                    <div id="collapseOne" class="collapse show" data-parent="#accordion">
+                    <div class="card-body">
+                        <p>Basically, there are 4 types.</p>
+                        <b>1. Top-freezer refrigerators</b>
+                        <p>Top-freezer refrigerators are the most economical to buy and many still find this style of freezer section the most convenient. They are the most popular choice when it comes to capacity ranges.</p>
+                        <b>2. Bottom-freezer</b>
+                        <p>This model offers a choice of pull-out or door-access frozen food compartment. While some like this style of refrigerator, others do not. This style influences the ticket price considerably and models offering a bottom freezer tend to be in the larger capacity refrigerators.</p>
+                        <b>3. Side by side refrigerators</b>
+                        <p>This type of refrigerator offer lots of convenience when it comes to having more frozen foods easily accessible. They're very affordable, look stylish and the narrow door swing is a good choice for small kitchens. However, they are only available in models with 450L and above.</p>
+                        <b>4. French-door refrigerators</b>
+                        <p>French-door refrigerators will cost you much more but with this style, it's easier to place trays and bulky items and they usually offer lots of cold food storage and an ample freezer compartment. You'll only find this style of refrigerator in the larger capacity models.</p>
+
+                    </div>
+                    </div>
+                </div>
+                
+                <div class="card">
+                    <div class="card-header">
+                    <a class="collapsed card-link" data-toggle="collapse" href="#collapseTwo">
+                         "What size / capacity of refigerator is most suitable for my family?"
+                    </a>
+                    </div>
+                    <div id="collapseTwo" class="collapse" data-parent="#accordion">
+                    <div class="card-body">
+                        <p>Once you've established installation and type, you can decide on capacity. If this will be your main refrigerator, size this appliance to meet your family's needs. Buying an overly large refrigerator which may remain partially empty will only use more kitchen space and increase purchase and energy costs. If you're buying a spare or beverage refrigerator, a compact model under 300L may be sufficient. A 400L size can be adequate for a family of 4, but a 510 – 620L or higher would be better for a large family.</p>
+                    </div>
+                    </div>
+                </div>
+                
+                <div class="card">
+                    <div class="card-header">
+                    <a class="collapsed card-link" data-toggle="collapse" href="#collapseThree">
+                        "What is Energy Efficiency?""
+                    </a>
+                    </div>
+                    <div id="collapseThree" class="collapse" data-parent="#accordion">
+                    <div class="card-body">
+                        <p>Buying an energy efficiency refrigerator assures you that it meets certain energy efficiency targets. When shopping, take time to compare energy guide labels to see which refrigerators cost less to operate.</p>
+                    </div>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="card-header">
+                    <a class="collapsed card-link" data-toggle="collapse" href="#collapseFour">
+                        "Is it possible to toast and reheat at the same time?""
+                    </a>
+                    </div>
+                    <div id="collapseFour" class="collapse" data-parent="#accordion">
+                    <div class="card-body">
+                        No. The appliance only operates one process at the same time. It therefore grills in the vertical position and reheats in the horizontal position.
+                    </div>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="card-header">
+                    <a class="collapsed card-link" data-toggle="collapse" href="#collapseFive">
+                        "How do I make a cappuccino or latte with coffee machine?"
+                    </a>
+                    </div>
+                    <div id="collapseFive" class="collapse" data-parent="#accordion">
+                    <div class="card-body">
+                        <P>Coffee is such a versatile produce that it can be consumed in a various ways. Some of the most popular choices are based with milk and espresso coffee. Cappuccino is one part espresso, one part steam milk and one part frothed milk. Latte is one part espresso and two parts steamed milk. Most espresso machines have a steam function to aerate milk required to make frothed milk. In order to make a latte simply keep the steam wand submerged to the bottom of your frothing vessel; this will draw in less air and create less froth. Do the reverse if you require frothier milk.</P>
+                    </div>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="card-header">
+                    <a class="collapsed card-link" data-toggle="collapse" href="#collapseSix">
+                            "How do I clean my manual coffee maker?"
+                    </a>
+                    </div>
+                    <div id="collapseSix" class="collapse" data-parent="#accordion">
+                    <div class="card-body">
+                        <p>Here are the steps to clean manual coffe maker:</p>
+                        <img src="../../img eproject/about Tasha/clean.jpg" width="100%" alt="">
+                    </div>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="card-header">
+                    <a class="collapsed card-link" data-toggle="collapse" href="#collapseSeven">
+                            "Can I put my Kitchen pans in the oven?"
+                    </a>
+                    </div>
+                    <div id="collapseSeven" class="collapse" data-parent="#accordion">
+                    <div class="card-body">
+                            <p>Yes, and you’ll love this feature for braising or keeping food warm in the skillets, sauté pans and casserole dishes. Stainless steel is oven-safe up to 500 degrees (260° C) and our nonstick frying pans are oven-safe up to 400 degrees (204° C).</p>
+                    </div>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="card-header">
+                    <a class="collapsed card-link" data-toggle="collapse" href="#collapseEight">
+                        "What is the best way to cook with stainless steel pot/pan to avoid food sticking?"
+                    </a>
+                    </div>
+                    <div id="collapseEight" class="collapse" data-parent="#accordion">
+                    <div class="card-body">
+                        <p>First, preheat the pan thoroughly on a low to medium heat – until water drops slide easily across the surface (not bubble or evaporate). Then add your food. Your meat or poultry may initially stick to the pan, but will loosen as natural juices are released. Once that occurs, you can then turn the meat or poultry to continue browning and cooking until done.</p> 
+
+                        <p>You may prefer to cook with oil, if that is the case, add a small amount of oil to your preheated pan and continue to heat until you see wisps of vapor or the oil shows runs (legs) down the pan before adding your food (You may also listen for the oil to sizzle - this indicates the pan is ready). Then follow the recipe as directed. These processes will help you caramelize, create fonds, and attain a crisp crust you can't generally duplicate in nonstick pans. It also helps to ensure foods are as dry as possible before cooking, especially when using oil – to avoid undue splattering.</p>
+                    </div>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="card-header">
+                    <a class="collapsed card-link" data-toggle="collapse" href="#collapseNine">
+                        "Can I use Lock & Lock products in the microwave ?"
+                    </a>
+                    </div>
+                    <div id="collapseNine" class="collapse" data-parent="#accordion">
+                    <div class="card-body">
+                        <b>Yes, you can</b>
+                        <p>It is safe to use them in the microwave . Chemicals will not leach into your food. Foods that are high in fat or sugar content tend to reheat very quickly and can scorch polypropylene. Don’t reheat these foods more than 2 minutes, and keep the lock open on all four sides to allow steam to escape. We recommend Lock & Lock Premium to those who use the microwave often. Lock & Lock Premium is made of polycarbonate which can even be boiled for deep-cleaning. Lock & Lock Premium is the ideal container for reheating food in the microwave.</p>
+                    </div>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="card-header">
+                    <a class="collapsed card-link" data-toggle="collapse" href="#collapseTen">
+                        <p>"Are Lock & Lock containers safe to use in the freezer ?"</p>
+                    </a>
+                    </div>
+                    <div id="collapseTen" class="collapse" data-parent="#accordion">
+                    <div class="card-body">
+                        <b>Yes, they are</b>
+                        <p>Both Lock & Lock Regular and Premium lines endure temperatures as low as -20℃. Since all liquids expand when frozen, it is best to fill containers only 2/3 of the way when freezing liquid contents. Also when you remove containers from the freezer, it is best to let them sit at room temperature for 1~2 minutes before opening the lid. This will extend the life of your containers</p>
+                    </div>
+                    </div>
+                </div>
+
+                <div class="text-center"><h2 class="title pt-3">Ask a Question</h2></div>
+                <form action="">
+                    <div class="form-group">
+                      <label for="text">Name:</label>
+                      <input type="text" class="form-control" id="txtname">
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email address:</label>
+                        <input type="email" class="form-control" id="email">
+                        </div>
+                    <div class="form-group">
+                      <label for="textarea">Question:</label>
+                      <textarea name="question" id="question" cols="10" rows="10" style="width: 100%"></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Send your question</button>
+                  </form>
+
+            </div>
+
+               
+                
+        </div>
+    </div>
+     <!-- footer -->
+     <div class="footer">
+        <div class="container p-0">
+            <div class="row mt-5 text-center text-md-left">
+                <div class="col-md-3 col-sm-6 col-6">
+                    <h5 class="font-weight-bold text-uppercase mt-3 mb-3">Product</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="Cookware-page.html">Cookware</a></li>
+                        <li><a href="Refrigeration-page.html">Refrigeration</a></li>
+                        <li><a href="Appliances-page.html">Appliances</a></li>
+                        <li><a href="FoodStorage-page.html">Food Storage</a></li>
+                    </ul> 
+                </div>
+                <div class="col-md-3 col-sm-6 col-6">
+                    <h5 class="font-weight-bold text-uppercase mt-3 mb-3">About us</h5>
+                    <ul class="list-unstyled">
+                        <li>Our company</li>
+                        <li>Mission & Vision</li>
+                        <li>Our Team</li>
+                    </ul> 
+                </div>
+                <div class="col-md-3 col-sm-6 col-6">
+                    <h5 class="font-weight-bold text-uppercase mt-3 mb-3">Customer Support</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="Feedback.html">Feedback Page</a></li>
+                        <li><a href="Manuals-page.html">Manuals</a></li>
+                        <li><a href="Q&A.html">Questions and answers</a></li>
+                    </ul> 
+                </div>
+                <div class="col-md-3 col-sm-6 col-6">
+                    <h5 class="font-weight-bold text-uppercase mt-3 mb-3">Address</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="Headoffice.html">Head office: 200 3/2 street, District 10, Ho Chi Minh city, Vietnam</a></li>
+                        <li>Tel: 1900 696 969</li>
+                        <li><a href="Location-Store.html">Store Locations</a></li>
+                    </ul> 
+                </div>
+            </div>
+            <div class="row mt-1">
+                <div class="col-md-9 col-sm-7">
+                    <h5 class="font-weight-bold text-uppercase mt-3 mb-2">Delivery services</h5>
+                    <img src="../../img eproject/image footer/del.png" alt="" width="85%" height="70%">
+                </div>
+                <div class="col-md-3 col-sm-5">
+                    <h5 class="font-weight-bold text-uppercase mt-3 mb-4" >Payment method</h5>
+                    <img src="../../img eproject/image footer/pay.png" alt="" width="80%" height="60%">
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid mt-3">
+            <div class="row text-center pt-1 pb-1" style="background-color: rgb(58, 57, 57)">
+                <hr>
+                <div class="col-12" style="color: white; font-size: 15px">Copyright &copy; 2019 <a href="#" class="copyright">Tasha.com</a>. All rights reserved.</div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

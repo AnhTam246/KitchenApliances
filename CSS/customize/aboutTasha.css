@@ -1,0 +1,190 @@
+body{
+    font-family: Arial, Helvetica, sans-serif !important;
+}
+nav.navbar{
+    padding: 0;
+    background-color: rgba(41, 98, 167, 0.8) !important;
+    height: 80px;
+}
+.navbar-brand{
+    width: 18%;
+    padding: 0;
+}
+.logo{
+    margin-left: 38px;
+}
+img.logo1{
+    height: 60px;
+    width: 90%;
+    margin-bottom: 5px;
+}
+ul li a.nav-link,ul li a.dropdown-item{
+    color: white !important;
+    font-size: 18px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+ul li.nav-item{
+    padding: 0px 18px 0px 18px;
+}
+ul li a.nav-link{
+    padding: 26px;
+}
+ul.dropdown-menu{
+    margin: 0;
+    padding: 0;
+    background-color: rgba(41, 98, 167, 0.8);
+}
+ul li.dropdown-item{
+    padding: 0;
+}
+ul li a.dropdown-item{
+    padding: 10px 20px 10px 20px;
+}
+.dropdown-item:focus,ul li.nav-item:hover,li.dropdown-item:hover,a.dropdown-item:hover{
+    background-color: rgba(22, 53, 92, 0.8) !important;
+    transition: 0.5s;
+}
+.header-search{
+    width: 28%;
+}
+input.search{
+    width: 80%;
+    height: 36px;
+}
+button.btn-outline-light{
+    position: absolute;
+    margin-left: 2px;
+}
+@media only screen and (max-width: 1024px) {
+    .slide .carousel-inner img {
+        width: 100%;
+        height: 300px;
+    }
+    .logo{
+        width: 200px;
+    }
+    nav.navbar{
+        height: 65px;
+    }
+    ul.navbar-nav{
+        float: right;
+        width: 200px;
+        background-color: rgba(41, 98, 167, 0.8);
+    }
+    .header-search{
+        display: none;
+    }
+    ul li a.nav-link,ul li a.dropdown-item{
+        color: white !important;
+        font-size: 13px;
+        padding: 10px;
+    }
+    .bottom-right{
+        font-size: 10px;
+        height: 50%;
+    }
+    .bottom-right h2{
+        font-size: 12px;
+    }
+    .bottom-right a{
+        font-size: 6px;
+    }
+    .top-right{
+        font-size: 10px !important;
+        top: 45px !important;
+    }
+}
+.content{
+    margin-top: 80px;
+}
+
+
+.footer{
+    background-color: rgba(41, 98, 167, 0.8);
+    color: white;
+    line-height: 25px;
+}
+.footer a:hover{
+    color: wheat;
+}
+ul.list-unstyled li a,a.copyright{
+    color: white;
+    text-decoration: none;
+}
+.footer h5{
+    font-size: 18px;
+}
+.footer li a,.footer li{
+    font-size: 15px;
+}
+.team-member, .team-member .team-img {
+    position: relative;
+    text-align: center;
+}
+.team-title h5 {
+    margin-bottom: 0px;
+    display: block;
+    text-transform: uppercase;
+}
+h2.title, h3.title{
+    color: rgb(41, 98, 167);
+    font-weight: 800;
+}
+.team-title span {
+    position: static;
+    padding-top: 90px;
+    font-size: 12px;
+    letter-spacing: 1px;
+    display: inline-block;
+    margin:auto;
+    width: 250px;
+    height: 330px;
+    background-color:rgb(198,217,241);
+}
+.team-link span {
+    font-size: 20px;
+    letter-spacing: 1px;
+    display: inline-block;
+    width: 250px;
+    height: 30px;
+    background-color:rgb(0,32,96);
+}
+.vision2 {
+    position: relative;
+    text-align: center;
+    color: black;
+  }
+  .bottom-right {
+    position: absolute;
+    bottom: 5%;
+    right: 1%;
+    width: 32%;
+    text-align: left;
+  }
+  .team-link ul{
+    margin-block-start: 0;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 0px;
+}
+.team-img img{
+    position: absolute;
+    right: 25.5%;
+}
+.team-title{
+    margin-top: 100px;
+}
+.title-big{
+    background-color: rgb(234, 239, 245);
+}
+.top-right {
+    position: absolute;
+    top: 100px;
+    right: 40px;
+    width: 45%;
+    text-align: left;
+    text-shadow: 4px 4px 5px rgb(4, 216, 253);
+    font-size: 20px;
+  }
