@@ -56,24 +56,22 @@ button.btn-outline-light{
     position: absolute;
     margin-left: 2px;
 }
+.aboutasha{
+    width: 150px !important;
+}
 @media only screen and (max-width: 1024px) {
     .slide .carousel-inner img {
         width: 100%;
         height: 300px;
     }
     .logo{
-        width: 200px;
+        width: 150px;
     }
     nav.navbar{
         height: 65px;
     }
-    ul.navbar-nav{
-        float: right;
-        width: 200px;
-        background-color: rgba(41, 98, 167, 0.8);
-    }
-    .header-search{
-        display: none;
+    .aboutasha{
+        width: 110px !important;
     }
     ul li a.nav-link,ul li a.dropdown-item{
         color: white !important;
@@ -94,6 +92,18 @@ button.btn-outline-light{
         font-size: 10px !important;
         top: 45px !important;
     }
+}
+@media only screen and (max-width: 768px){
+    .header-search{
+        display: none;
+    }
+}
+@media only screen and (max-width: 426px){
+    ul.navbar-nav{
+        float: right;
+        width: 200px;
+        background-color: rgba(41, 98, 167, 0.8);
+    } 
 }
 .content{
     margin-top: 80px;

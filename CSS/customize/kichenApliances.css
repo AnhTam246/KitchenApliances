@@ -56,6 +56,9 @@ button.btn-outline-light{
     position: absolute;
     margin-left: 2px;
 }
+.aboutasha{
+    width: 150px !important;
+}
 @media only screen and (max-width: 1024px) {
     .slide .carousel-inner img {
         width: 100%;

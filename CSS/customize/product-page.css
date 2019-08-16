@@ -56,36 +56,96 @@ button.btn-outline-light{
     position: absolute;
     margin-left: 2px;
 }
+.aboutasha{
+    width: 150px !important;
+}
 @media only screen and (max-width: 1024px) {
     .slide .carousel-inner img {
         width: 100%;
         height: 300px;
     }
     .logo{
-        width: 200px;
+        width: 150px;
     }
     nav.navbar{
         height: 75px;
-    }
-    ul.navbar-nav{
-        float: right;
-        width: 200px;
-        background-color: rgba(41, 98, 167, 0.8);
-    }
-    .header-search{
-        display: none;
     }
     ul li a.nav-link,ul li a.dropdown-item{
         color: white !important;
         font-size: 13px;
         padding: 10px;
     }
+    .aboutasha{
+        width: 110px !important;
+    }
+    .title-product,.price,.add{
+        font-size: 10px !important;
+    }
+    .add{
+        width: 100px !important;
+    }
+    .product-image{
+        height: 68% !important;
+    }
+    h2{
+        font-size: 25px !important;
+    }
+    h3{
+        font-size: 22px !important;
+    }
+    .text-story{
+        font-size: 13px !important;
+        line-height: 17px !important;
+    }
+}
+@media only screen and (max-width: 768px){
+    .product-image{
+        height: 60% !important;
+    }
+    .product-image img{
+        height: 80% !important; 
+    }
+    .title-product{
+        height: 30px !important;
+    }
+    .menu-left li a, .menu-right li a{
+        font-size: 10px !important;
+    }
+    ul.list-menu li{
+        list-style: none;
+    }
+    ul.list-menu li ul{
+        padding-left: 10px !important;
+    }
+    .header-search{
+        display: none;
+    }
+}
+@media only screen and (max-width: 426px){
     .menu-left, .menu-right{
         text-align: center;
         width: 50%;
         float: left;
     }
+    .product-image{
+        height: 70% !important;
+    }
+    .product-image img{
+        height: 100% !important; 
+    }
+    .title-product,.price,.add{
+        font-size: 15px !important;
+    }
+    .add{
+        width: 150px !important;
+    }
+    ul.navbar-nav{
+        float: right;
+        width: 200px;
+        background-color: rgba(41, 98, 167, 0.8);
+    }
 }
+
 .content{
     margin-top: 80px;
 }
