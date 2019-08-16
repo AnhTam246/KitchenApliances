@@ -1,2 +1,0 @@
-# KitchenApliances
-my first project
